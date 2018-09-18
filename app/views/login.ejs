@@ -1,17 +1,19 @@
 <%- include('header') %>
-    <h1>Login</h1>
 
-    <form method="post" action="/login">
-        <p>
-            <label>Username:</label>
-            <input type="text" name="username">
-        </p>
-        <p>
-            <label>Password:</label>
-            <input type="password" name="password">
-        </p>
-        <p>
-            <input type="submit" value="Login">
-        </p>
-    </form>
+<h1>Login</h1>
+
+<form action="/login" method="post">
+    <p>
+        <label>Username:</label>
+        <input autocomplete="off" autofocus name="username" type="text">
+    </p>
+    <p>
+        <label>Password:</label>
+        <input name="password" type="password">
+    </p>
+    <p>
+        <input value="Log In" type="submit"> or <a href="/register">Register</a>
+    </p>
+</form>
+
 <%- include('footer') %>
