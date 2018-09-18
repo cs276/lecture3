@@ -1,0 +1,22 @@
+{
+  "name": "lecture3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "echo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cs276/lecture3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cs276/lecture3/issues"
+  },
+  "homepage": "https://github.com/cs276/lecture3#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
