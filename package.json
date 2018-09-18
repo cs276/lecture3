@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/cs276/lecture3#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "async": "^2.6.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.11"
   }
 }
